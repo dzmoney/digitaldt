@@ -48,7 +48,7 @@
 .navbar-sign button,
 .navbar-menu_container button {
   padding: 0.5rem 1rem;
-  background: #00eaff;
+  background: var(--color-button);
   color: #fff;
   font-family: var(--font-family);
   font-weight: 500;
