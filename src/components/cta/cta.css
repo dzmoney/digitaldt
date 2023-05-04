@@ -1,0 +1,49 @@
+.possibility-footer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.possibility-block {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  width: 1170px;
+  height: 172.65px;
+  background: linear-gradient(89.97deg, #ae67fa 1.84%, #f49867 102.67%);
+  border: 1px solid #000000;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 12px;
+  margin-top: 8rem;
+  padding: 2rem;
+}
+
+.possibility-block__text {
+  font-family: var(--font-family);
+}
+
+.possibility-block__text p {
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 30px;
+}
+
+.possibility-block__text h2 {
+  font-weight: 800;
+  font-size: 24px;
+  line-height: 45px;
+}
+
+.possibility-block button {
+  background: #000000;
+  border-radius: 40px;
+  width: 189.14px;
+  height: 59.4px;
+  color: #fff;
+  font-weight: 700;
+  font-size: 18px;
+  font-family: var(--font-family);
+  line-height: 30px;
+}
