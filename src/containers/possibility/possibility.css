@@ -1,8 +1,6 @@
 .possibility {
   display: flex;
   flex-direction: row;
-  /* justify-content: space-between;
-  align-items: center; */
 }
 
 .possibility-image {
@@ -45,7 +43,7 @@
 .possibility-content p {
   font-family: var(--font-family);
   font-weight: 400;
-  font-size: 16px;
+  font-size: 18px;
   line-height: 30px;
   color: var(--color-text);
 }
@@ -61,5 +59,9 @@
 
   .possibility-content {
     margin-top: 2rem;
+  }
+
+  .possibility-content p {
+    font-size: 14px;
   }
 }
