@@ -47,7 +47,7 @@ const Footer = () => {
           <p>
             Coded by Digital DT // Open-sourced on{" "}
             <a
-              src="https://github.com/dzmoney/gpt3-ux-project"
+              href="https://github.com/dzmoney/gpt3-ux-project"
               target="_blank"
               rel="noreferrer"
             >
