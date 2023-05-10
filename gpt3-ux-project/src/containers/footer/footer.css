@@ -97,13 +97,30 @@
   cursor: pointer;
 }
 
-.footer-copyright {
-  text-align: center;
+.footer-end {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
   margin-top: 4rem;
   margin-bottom: -3rem;
 }
 
-.footer-copyright p {
+.footer-copyright {
+  margin-right: 30px; /* Adjust the spacing as needed */
+}
+
+.footer-github {
+  margin-left: 30px; /* Adjust the spacing as needed */
+}
+
+.footer-github a {
+  cursor: pointer;
+  color: var(--color-button);
+}
+
+.footer-copyright p,
+.footer-github p {
   color: #ffffff;
   font-family: var(--font-family);
   font-size: 12px;

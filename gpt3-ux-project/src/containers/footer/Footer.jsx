@@ -43,6 +43,18 @@ const Footer = () => {
         <div className="footer-copyright">
           <p>© 2021 GPT-3. All rights reserved.</p>
         </div>
+        <div className="footer-github">
+          <p>
+            Coded by Digital DT // Open-sourced on{" "}
+            <a
+              src="https://github.com/dzmoney/gpt3-ux-project"
+              target="_blank"
+              rel="noreferrer"
+            >
+              Github
+            </a>
+          </p>
+        </div>
       </div>
     </div>
   );
